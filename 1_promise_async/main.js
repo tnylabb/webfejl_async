@@ -1,5 +1,5 @@
 const service = new Service();
-const viewDataController = new viewDataController();
+const data = new ViewDataController();
 service.init().then((array) => {
-    viewDataController.renderData(array);
+    data.renderData(array);
 });

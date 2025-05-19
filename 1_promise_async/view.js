@@ -1,9 +1,10 @@
-class viewDataController{
+class ViewDataController{
     #div
 
     constructor(){
         this.#div = document.createElement('div')
         document.body.appendChild(this.#div)
+        this.#div.textContent = "Loading..."
     }
 
     renderData(array){

@@ -52,3 +52,17 @@ function buyApple3(num){
             setTimeout(() => (reject('Nincs ' + num + ' almánk')), 1000)
     })
 }
+
+buyApple3(4).then(value => {
+    console.log(value)
+}
+).catch(error => {
+    console.log(error)
+})
+
+buyApple3(6).then(value => {
+    console.log(value)
+}
+).catch(error => {
+    console.log(error)
+})
