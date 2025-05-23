@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dots">
+        <div class="dot" style="left: 5vw; width: 6px; height: 6px; animation-duration: 7s; animation-delay: 0s;"></div>
+        <div class="dot" style="left: 12vw; width: 5px; height: 5px; animation-duration: 5.5s; animation-delay: 1s;"></div>
+        <div class="dot" style="left: 20vw; width: 7px; height: 7px; animation-duration: 8.5s; animation-delay: 0.3s;"></div>
+        <div class="dot" style="left: 27vw; width: 4px; height: 4px; animation-duration: 6s; animation-delay: 2s;"></div>
+        <div class="dot" style="left: 33vw; width: 6px; height: 6px; animation-duration: 7.5s; animation-delay: 0.7s;"></div>
+        <div class="dot" style="left: 40vw; width: 5px; height: 5px; animation-duration: 5s; animation-delay: 1.2s;"></div>
+        <div class="dot" style="left: 47vw; width: 6px; height: 6px; animation-duration: 6.8s; animation-delay: 0.9s;"></div>
+        <div class="dot" style="left: 54vw; width: 7px; height: 7px; animation-duration: 7.1s; animation-delay: 1.5s;"></div>
+        <div class="dot" style="left: 61vw; width: 5px; height: 5px; animation-duration: 5.3s; animation-delay: 0.2s;"></div>
+        <div class="dot" style="left: 68vw; width: 6px; height: 6px; animation-duration: 6.5s; animation-delay: 1.1s;"></div>
+        <div class="dot" style="left: 75vw; width: 5px; height: 5px; animation-duration: 7.3s; animation-delay: 0.4s;"></div>
+        <div class="dot" style="left: 82vw; width: 7px; height: 7px; animation-duration: 8s; animation-delay: 0.8s;"></div>
+        <div class="dot" style="left: 89vw; width: 6px; height: 6px; animation-duration: 6.2s; animation-delay: 1.4s;"></div>
+        <div class="dot" style="left: 95vw; width: 5px; height: 5px; animation-duration: 5.8s; animation-delay: 0.6s;"></div>
+    </div>  
+      
+    <div class="container">
+      <form action="http://127.0.0.1:63013/pages/greet">
+          <h1>Üdvözlés</h1>
+          <label for="input">Név</label>
+          <input id="input" type="text" name="name">
+          <button id="btn"> Köszön</button>
+        </form>
+        <form action="http://127.0.0.1:63013/pages/fruits" method="post">
+          <h1>Hozzáadás rész</h1>
+          <label for="input1">Név</label>
+          <input id="input1" type="text" name="name">
+          <label for="input2">Ár</label>
+          <input id="input2" type="text" name="price">
+          <button id="btn">Gyümölcs hozzáadás</button>
+        </form>
+        <form id="fruitform">
+          <h1>Hozzáadás rész</h1>
+          <label for="fruitnameinput">Hozzáadás rész</label>
+          <input id="fruitname" type="text" name="">
+          <input id="fruitprice" type="text" name="">
+          <button id="btn">Submit</button>
+      </form>
+    </div>    
+    <script src="main.js"></script>
+  </body>
+</html>
